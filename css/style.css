@@ -59,3 +59,15 @@ img{
   color: #5C5D5B;
   text-decoration: line-through;
 }
+
+.card .heart{
+  position: absolute;
+  background-color: white;
+  top: 8px;
+  right: 0;
+  padding: 7px;
+}
+
+.heart:hover{
+  color: red;
+}
