@@ -21,7 +21,7 @@
 }
 
 .card{
-  margin: 10px;
+  margin: 20px 10px;
   position: relative;
 }
 
@@ -66,13 +66,21 @@ img{
   padding: 7px;
 }
 
-.card .discount{
-  color: white;
-  background-color: red;
+.card .badge{
   position: absolute;
   bottom: 95px;
   left: 0;
-  padding: 4px 15px;
+}
+.card .badge .discount{
+  color: white;
+  background-color: red;
+  padding: 4px 8px;
+}
+
+.card .badge .eco{
+  color: white;
+  background-color: green;
+  padding: 4px 8px;
 }
 
 .heart:hover{
