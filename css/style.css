@@ -20,8 +20,20 @@
 }
 
 .card{
- 
+  position: relative;
 }
+
+.card .absolute{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card:hover .absolute{
+  display: block;
+}
+
 
 img{
   max-width: 330px;
