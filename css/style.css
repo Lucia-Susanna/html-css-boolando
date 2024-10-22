@@ -36,9 +36,7 @@ img{
   left: 0;
 }
 
-.card:hover .absolute{
-  display: block;
-}
+
 
 .card .marca{
   color: #5C5D5B;
@@ -68,6 +66,19 @@ img{
   padding: 7px;
 }
 
+.card .discount{
+  color: white;
+  background-color: red;
+  position: absolute;
+  bottom: 95px;
+  left: 0;
+  padding: 4px 15px;
+}
+
 .heart:hover{
   color: red;
+}
+
+.card:hover .absolute{
+  display: block;
 }
